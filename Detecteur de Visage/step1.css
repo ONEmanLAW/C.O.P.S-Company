@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #00bfff;
+}
+
+h1 {
+  color: black;
+  margin-top: 20px;
+}
+
+canvas {
+  margin-top: 20px;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+}
+
+#detection-message {
+  color: green;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+#scan-message {
+  color: white;
+  font-size: 24px;
+  background-color: rgba(0, 128, 255, 0.7);
+  display: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 10px;
+}

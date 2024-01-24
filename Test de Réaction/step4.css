@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #00bfff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: black;
+}
+
+p {
+  font-size: 18px;
+}
+
+button {
+  padding: 25px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid balck;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #45a049;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+  background-color: #dddddd;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+#changePageButton {
+  padding: 15px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  background-color: gray; 
+  color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#changePageButton:hover {
+  background-color: gray;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#changePageButton:disabled {
+  background-color: #dddddd;
+  color: #666666;
+  cursor: not-allowed;
+}
